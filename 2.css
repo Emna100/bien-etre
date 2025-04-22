@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f4f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background-color: #f7c9d2;
+    color: white;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    height: 69%;
+    padding: 5px 20px;
+  }
+  
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    
+  }
+   header p {
+    font-size: 1.1em;
+    font-style: italic;
+   
+  }
+  main {
+    padding: 60px 20px;
+  }
+  .conseils h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #444;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .card {
+    border-radius: 16px;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  .card p {
+    margin-bottom: 12px;
+    font-size: 0.95em;
+    color: #fefefe;
+    line-height: 1.5;
+  }
+  
+  .card p:not(:first-of-type) {
+    font-style: italic;
+    opacity: 0.9;
+  }
+  
+  /* Couleurs variées */
+  .card.meditation {
+    background-color: #a3c4f3;
+  }
+  .card.meditation:hover {
+    background-color: #8ab2ec;
+  }
+  
+  .card.emotions {
+    background-color: #f6a5c0;
+  }
+  .card.emotions:hover {
+    background-color: #f28dae;
+  }
+  
+  .card.repos {
+    background-color: #b0e6c1;
+  }
+  .card.repos:hover {
+    background-color: #9cdab1;
+  }
+
+  video {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  footer {
+    background-color: #f7c9d2;
+    color: rgb(45, 241, 88);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
